@@ -15,14 +15,14 @@ import javax.swing.JTextPane;
  * @author INTAN
  */
 public class Tugas3 extends javax.swing.JFrame {
-    private Praktikum3Controller controller;
+    private Tugas3Controller controller;
 
     /**
-     * Creates new form Praktikum3
+     * Creates new form tugas3
      */
     public Tugas3() {
         initComponents();
-        controller = new Praktikum3Controller (this);
+        controller = new Tugas3Controller(this);
     }
 
     /**
