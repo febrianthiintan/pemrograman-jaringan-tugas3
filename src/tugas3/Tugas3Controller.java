@@ -68,7 +68,6 @@ public class Tugas3Controller {
            } finally {
                if (reader != null) {
                    try {
-                       JOptionPane.showMessageDialog(null, "Could not open file", "Error", JOptionPane.ERROR_MESSAGE);
                        reader.close();
                    } catch (IOException ex) {
                        Logger.getLogger(Tugas3Controller.class.getName()).log(Level.SEVERE, null, ex);
