@@ -97,13 +97,19 @@ public class Tugas3Controller {
                         writer.flush();
                         writer.close();
                         view.getTxtPane3().setText("");
+                        
                         //menambahkan jOptionPane untuk menampilkan data tersimpan
-                        JOptionPane.showMessageDialog(null, "Data anda berhasil tersimpan !!", "PESAN INFORMASI", JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(null, "Data Berhasil Tersimpan !!", "PESAN INFORMASI", JOptionPane.INFORMATION_MESSAGE);
                     } catch (IOException ex) {
                         Logger.getLogger(Tugas3Controller.class.getName()).log(Level.SEVERE, null, ex);
-                    }
+                    } 
                 }
+                
+                    else {
+                            JOptionPane.showMessageDialog(null, "Kolom Tidak Boleh Kosong!!", "WARNING", JOptionPane.WARNING_MESSAGE);
+                            }
             }    
         }
     }
 }
+

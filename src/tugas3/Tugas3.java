@@ -45,7 +45,7 @@ public class Tugas3 extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Tempus Sans ITC", 1, 24)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("Praktikum 3");
+        jLabel1.setText("TUGAS");
 
         jScrollPane1.setViewportView(txtPane3);
 
